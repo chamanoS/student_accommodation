@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Heebo",sans-serif;
 }
 .logo{
     display: block;
@@ -34,3 +35,108 @@ body{
     font-size: 20px;
     color: aliceblue;
 }
+
+/* student rooms Component */
+.container{
+    background-color: #0F172B;
+    padding: 48px 12px;
+}
+
+.heading{
+    font-family: "Montserrat",sans-serif;
+}
+
+.heading h6{
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.heading h1{
+    text-align: center;
+    color: #fff;
+    margin-top: -30px;
+    font-size: 27.625px;
+}
+
+
+.sub_heading h1{
+    text-transform:uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0 10px;
+    font-family: "Montserrat",sans-serif;
+
+}
+
+.heading >div{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.Accom_line span{
+    border:1px solid #305B9B;
+    width: 40px;
+}
+
+.sub_heading >div{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+
+.Bed_line span{
+    border:1px solid #305B9B;
+    width: 50px;
+}
+
+.bedroom_photo img{
+  width:90%;
+  height: 40vh;
+}
+
+.bedroom_info{
+    margin: 8px 0px 0px;
+    padding: 24px;
+}
+
+.bedroom_details{
+    padding-left: 15px;
+    margin: -30px;
+    padding-left: 50px;
+}
+
+.bedroom_details p{
+    color: #fff;
+}
+
+.bedroom_details h5{
+    font-family: "Montserrat",sans-serif;
+}
+
+.bedroom_info h5{
+    color: #fff;
+    font-size: 20px;
+}
+
+.bedroom_icon{
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.bedroom_icon i{
+    padding-right: 10px;
+}
+
+.bedroom_icon span{
+    padding-right: 10px; 
+}
+
+
+
+
