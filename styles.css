@@ -9,7 +9,7 @@ body{
 }
 .header-wrapper{
     display: flex;
-    background-color: #0F172B;
+    /* background-color: #0F172B; */
     height: 140px;
 }
 .nav-contact{
@@ -23,6 +23,7 @@ body{
     align-items: center;
     color: #666565;
 }
+
 .nav-link{
     display: flex;
     list-style: none;
