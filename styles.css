@@ -36,10 +36,17 @@ body{
     margin-left: -30px;
     margin-top: -10px;
 }
+.nav-link a{
+    text-decoration: none;
+}
+.nav-link a:hover{
+    color: #007bff;
+}
 .nav-links{
     padding: 10px;
     font-size: 20px;
     color: aliceblue;
+    cursor: pointer;
 }
 /* Hero section Component */
 .hero-parent{
