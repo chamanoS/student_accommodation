@@ -16,6 +16,7 @@ body{
 .nav-contact{
     display: flex;
     padding: 5px;
+    margin-top: -7px;
 }
 .contact-nav{
     margin: 10px;
@@ -24,16 +25,60 @@ body{
     align-items: center;
     color: #666565;
 }
+.contact-nav img{
+    width: 20px;
+    height: auto;
+}
 
 .nav-link{
     display: flex;
     list-style: none;
     margin-left: -30px;
+    margin-top: -10px;
 }
 .nav-links{
     padding: 10px;
     font-size: 20px;
     color: aliceblue;
+}
+/* Hero section Component */
+.hero-parent{
+    background-image: url('./assets/home.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-sec{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 200px !important;
+}
+
+/* home Component */
+.p-container{
+    background-color: #0F172B;
+    padding: 48px 12px;
+    color: white;
+}
+.student-header h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.student-list{
+    display: flex;
+    justify-content:space-around;
+}
+.student-lists li{
+    list-style: none;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 600;
 }
 
 /* student rooms Component */
@@ -76,7 +121,10 @@ body{
     justify-content:space-evenly;
     align-items: center;
 }
-
+.Accom_line h1{
+    font-size: 50px;
+    font-weight: 600;
+}
 .Accom_line span{
     border:1px solid #305B9B;
     width: 40px;
@@ -136,7 +184,106 @@ body{
 .bedroom_icon span{
     padding-right: 10px; 
 }
+.beds{
+    display: flex;
+    justify-content: space-around;
+}
 
 
+/* service component */
+.s-block{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.s-align{
+    margin-top: 70px;
+    color: black;
+    cursor: pointer;
+}
+.s-block:hover{
+    background-color: #305B9B;
+    color: white;
+}
+.s-block img{
+    
+    width: 50px;
+    height: auto;
+}
+.service-block{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+}
 
+/* contact component */
+.contact-d{
+display: flex;
+margin-left: 20px;
+}
+.contact-us{
+    padding: 20px;
+    margin: 20px;
 
+}
+.map{
+    margin-left: -120px;
+}
+.contactForm{
+    margin-left: -220px;
+}
+.send-contact{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-group {
+    margin-bottom: 20px;
+  }
+ 
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 130px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .last-contact{
+    margin-left: 80px;
+    margin-top: 150px;
+  }
+  .footer{
+    margin-top: 40px;
+    padding: 5px 80px;
+
+  }
