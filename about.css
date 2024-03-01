@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo",sans-serif;
+    background-color: #0F172B;
+}
+
+/* Start of Page header */
+.page_header{
+    width:100%;
+    height: 30vh;
+    background-image: url("assets/chilla.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 0 -230px;
+
+}
+
+.about_us{
+    margin: 0px 101.5px;
+    padding: 0px 12px 48px;
+}
+
+.about_us h1{
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 55.651px;
+    margin: 0px 0px 16px;
+}
+
+.about_nav{
+    display: flex;
+    font-size: 16px;
+    margin: 0px 0px 16px;
+}
+
+.about_nav li{
+    list-style-type:none;
+    color: #fff;
+}
+
+.about_nav li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: aqua;
+}
+/* End of Page header */
+
+/* Start of About Info */
+.about_info{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+margin: 70px 70px;
+}
+
+.about_details{
+  flex: 50%;
+  color: #fff;
+}
+
+.about_img{
+    flex: 50%;
+}
+
+.about_img img{
+    width: 259px;
+    height: 195px;
+}
+
+.about_details h6{
+    font-size: 16px;
+    font-family: "Montserrat",sans-serif;
+    margin: 0px 0px 8px;
+}
+
+.about_details span{
+    font-size: 40px;
+    font-family: "Montserrat",sans-serif;
+}
+
+.about_details p{
+    margin-top: 25px;
+    line-height: 23px;
+}
+
+
